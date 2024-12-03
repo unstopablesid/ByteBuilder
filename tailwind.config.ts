@@ -16,42 +16,42 @@ export default {
         "grain": "url('/Assets/images/Grain.gif')",
       },
       animation:{
-        "noisy-bag": "noisy-bag 1s step(2) infinite linear",
+        "noisy-bag": "noise 1s step(2) infinite",
       },
       keyframes:{
         noise:{
           "0%": {
-            transform: "translate(0, 0)",
+            transform: "translate3d(0,9rem, 0)",
           },
           "10%": {
-            transform: "translate(-5%, -5%)",
+            transform: "translate3d(-1rem,-4rem, 0)",
           },
           "20%": {
-            transform: "translate(-10%, 5%)",
+            transform: "translate3d(-8rem,2rem, 0)",
           },
           "30%": {
-            transform: "translate(5%, -10%)",
+            transform: "translate3d(9rem, -9rem ,0)",
           },
           "40%": {
-            transform: "translate(-5%, 15%)",
+            transform: "translate3d(-2rem,6rem,0)",
           },
           "50%": {
-            transform: "translate(-10%, 5%)",
+            transform: "translate3d(-9rem,-6rem,0)",
           },
           "60%": {
-            transform: "translate(15%, 0)",
+            transform: "translate3d(2rem , 9rem, 0)",
           },
           "70%": {
-            transform: "translate(0, 10%)",
+            transform: "translate3d(7rem ,-8rem , 0)",
           },
           "80%": {
-            transform: "translate(-15%, 0)",
+            transform: "translate3d(-9rem, 1rem, 0)",
           },
           "90%": {
-            transform: "translate(10%, 5%)",
+            transform: "translate3d(6rem , -5rem, 0)",
           },
           "100%": {
-            transform: "translate(5%, -5%)",
+            transform: "translate3d(-7rem , 0,0)",
           },
         }
       },
